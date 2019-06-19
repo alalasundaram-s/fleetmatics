@@ -1,0 +1,42 @@
+{
+    "DistanceInKm": "1000",
+    "Status": "OnDutyNotDriving",
+    "SubStatus": "OffDuty30MinBreak",
+    "StatusDateTimeUTC": "2017-06-20T19:35:24.46",
+    "StatusDurationSeconds": 88,
+    "UpdateDatetTimeUTC": "2017-06-20T19:35:24.45",
+     "TrailerNumber": [
+        "999999"
+    ],
+    "ShippingReference": [
+        "8888888"
+    ],
+    "Remark": null,
+    "Address": null,
+    "ModifiedBy": "Last updated by Test User",
+    "DriverNumber": "42",
+    "FirstName": "Ramiro",
+    "LastName": "Villarreal",
+    "VehicleNumber": "85",
+    "VehicleName": "Vehicle 85",
+    "TimeRemainingSinceLastStatus":{
+          "DailyDrivingMinutes":45,
+          "DailyOnDutyMinutes":15
+    },
+    "TimeUsedSinceLastReset":{
+         "DailyDrivingMinutes":50,
+         "DailyOnDutyMinutes":10
+   },
+    "_links": {
+        "current": {
+            "href": "http://api.us.fleetmatics.com/logbook/v1/status/99/current"
+        },
+        "driver": {
+            "href":"http://api.us.fleetmatics.com/CMD/v1/drivers/99"
+        },
+
+        "logbooksettings": {
+            "href":"http://api.us.fleetmatics.com/CMD/v1/driversettings/logbooksettings/99/
+        },
+    }
+}
