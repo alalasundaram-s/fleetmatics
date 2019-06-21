@@ -36,7 +36,7 @@
         },
 
         "logbooksettings": {
-            "href":"http://api.us.fleetmatics.com/CMD/v1/driversettings/logbooksettings/99/
-        },
+            "href":"http://api.us.fleetmatics.com/CMD/v1/driversettings/logbooksettings/99/"
+        }
     }
 }
